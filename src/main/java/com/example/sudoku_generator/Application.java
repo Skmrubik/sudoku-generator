@@ -14,6 +14,8 @@ public class Application {
         Celda[][] sudoku = new Celda[9][9];
         ProcesamientoSudoku proc = new ProcesamientoSudoku(sudoku);
         proc.rellenarPrimeraFila();
+        proc.rellenarSegundaColumna();
+        proc.rellenarTerceraColumna();
         proc.printSudoku();
 
 	}
