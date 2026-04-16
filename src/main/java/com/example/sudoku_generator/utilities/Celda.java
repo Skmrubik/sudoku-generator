@@ -1,4 +1,4 @@
-package utilities;
+package com.example.sudoku_generator.utilities;
 
 public class Celda {
     Integer numero;
