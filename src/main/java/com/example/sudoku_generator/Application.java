@@ -12,7 +12,6 @@ public class Application {
 
         SpringApplication.run(Application.class, args);
         ProcesamientoSudoku proc = new ProcesamientoSudoku();
-        proc.printSudoku();
         proc.rellenar(proc.getSudoku(),0);
         proc.printSudoku();
 
